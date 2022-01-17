@@ -1,0 +1,33 @@
+<mat-card class="quiz-container">
+  <div id="question1" class="question">
+    <label class="title">Question 1</label>
+    <br/>
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      [(ngModel)]="favoriteSeason">
+      <mat-radio-button class="example-radio-button" [value]="'Winter'">Winter</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="'Spring'">Spring</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="'Summer'">Summer</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="'Autumn'">Autumn</mat-radio-button>
+    </mat-radio-group>
+    <div>Your favorite season is: {{favoriteSeason}}</div>
+  </div>
+
+  <br/>
+
+  <div id="question2" class="question">
+    <label class="title">Question 2</label>
+    <br/>
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      [(ngModel)]="favoriteSeason">
+      <mat-radio-button class="example-radio-button" [value]="'Winter'">Winter</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="'Spring'">Spring</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="'Summer'">Summer</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="'Autumn'">Autumn</mat-radio-button>
+    </mat-radio-group>
+    <div>Your favorite season is: {{favoriteSeason}}</div>
+  </div>
+</mat-card>
